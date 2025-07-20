@@ -1,0 +1,30 @@
+{
+    "label" : "lock",
+    "action" : "~/.local/bin/session/lock.sh",
+    "text" : "Lock"
+}
+{
+    "label" : "logout",
+    "action" : "loginctl terminate-user $USER",
+    "text" : "Logout"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown"
+}
+{
+    "label" : "suspend",
+    "action" : "~/.local/bin/session/sleep.sh",
+    "text" : "Suspend"
+}
+{
+    "label" : "hibernate",
+    "action" : "~/.local/bin/session/hibernate.sh",
+    "text" : "Hibernate"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot"
+}

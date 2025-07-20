@@ -1,0 +1,7 @@
+export QT_QPA_PLATFORMTHEME=qt6ct
+export XDG_CURRENT_DESKTOP=Wayland
+export ELECTRON_ENABLE_THEME_SUPPORT=1
+export MOZ_USE_XINPUT2=1
+export XDG_DESKTOP_PORTAL=xdg-desktop-portal-hyprland
+export XDG_SESSION_TYPE=wayland
+
